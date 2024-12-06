@@ -11,8 +11,7 @@
   },
   "jest": {
     "testPathIgnorePatterns": [
-      "<rootDir>/tests/playwright/",
-      "<rootDir>/tests/**/*.playwright.js"
+      "<rootDir>/tests/playwright/"
     ]
   },
   "keywords": [],
