@@ -33,32 +33,32 @@ Playwright: End-to-end testing framework.
 
 **Playwright Test Cases:**
 
-TC1: Verify Start page loads with correct title and content
-TC2: Verify that Signup button redirects to Signup page
-TC3: Verify that Login button redirects to Login page
-TC4: Verify that user can enter username and password input fields on Signup page
-TC5: Verify that Signup button creates a new user and redirects to the Login page
-TC6: Verify error messages for missing/invalid fields on Signup page
-TC7: Verify existing username error message on Signup page
-TC8: Verify invalid password error message on Signup page: no uppercase letters
-TC9: Verify invalid password error message on Signup page: no numbers
-TC10: Verify invalid password error message on Signup page: no letters
-TC11: Verify invalid password error message on Signup page: less than 8 characters
-TC12: Verify that user can enter username and password in input fields on Login page
-TC13: Verify that Login button signs in user and redirects to the Dashboard page
-TC14: Verify error messages for missing/invalid fields on Login page
-TC15: Verify error message for incorrect password on Login page
-TC16: Verify error message for non-existent user on Login page
-TC17: Verify Dashboard page loads with correct title and content
-TC18: Verify Logout button on Dashboard page redirects to Start page
-TC19: Verify change password flow for unique user
-TC20: Verify error message for mismatching passwords
-TC21: Verify error message for invalid new password: no uppercase letter
-TC22: Verify error message for invalid new password: no numbers
-TC23: Verify error message for invalid new password: no letters
-TC24: Verify error message for invalid new password: less than 8 characters
-TC25: Verify error message for missing fields
-TC26: End-2-End Happy Flow: Signup > Login > Change Password > Logout
+- TC1: Verify Start page loads with correct title and content
+- TC2: Verify that Signup button redirects to Signup page
+- TC3: Verify that Login button redirects to Login page
+- TC4: Verify that user can enter username and password input fields on Signup page
+- TC5: Verify that Signup button creates a new user and redirects to the Login page
+- TC6: Verify error messages for missing/invalid fields on Signup page
+- TC7: Verify existing username error message on Signup page
+- TC8: Verify invalid password error message on Signup page: no uppercase letters
+- TC9: Verify invalid password error message on Signup page: no numbers
+- TC10: Verify invalid password error message on Signup page: no letters
+- TC11: Verify invalid password error message on Signup page: less than 8 characters
+- TC12: Verify that user can enter username and password in input fields on Login page
+- TC13: Verify that Login button signs in user and redirects to the Dashboard page
+- TC14: Verify error messages for missing/invalid fields on Login page
+- TC15: Verify error message for incorrect password on Login page
+- TC16: Verify error message for non-existent user on Login page
+- TC17: Verify Dashboard page loads with correct title and content
+- TC18: Verify Logout button on Dashboard page redirects to Start page
+- TC19: Verify change password flow for unique user
+- TC20: Verify error message for mismatching passwords
+- TC21: Verify error message for invalid new password: no uppercase letter
+- TC22: Verify error message for invalid new password: no numbers
+- TC23: Verify error message for invalid new password: no letters
+- TC24: Verify error message for invalid new password: less than 8 characters
+- TC25: Verify error message for missing fields
+- TC26: End-2-End Happy Flow: Signup > Login > Change Password > Logout
 
 **Prerequisites and dependencies required for running the project in your IDE:**
 
