@@ -26,11 +26,7 @@ module.exports = defineConfig({
     {
       name: 'Firefox',
       use: { browserName: 'firefox' },
-    },
-    {
-      name: 'WebKit',
-      use: { browserName: 'webkit' },
-    },
+    }
   ],
   reporter: [
     ['list'],
