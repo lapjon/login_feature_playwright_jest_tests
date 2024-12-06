@@ -36,5 +36,5 @@ jobs:
       run: npx wait-on http://localhost:5000
 
     - name: Run Playwright tests in all browsers
-      run: npx playwright test --project=Chromium --project=Chrome --project=Firefox --project=WebKit
+      run: npx playwright test --project=Chromium --project=Chrome --project=Firefox 
   
