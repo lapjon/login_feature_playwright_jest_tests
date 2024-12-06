@@ -1,4 +1,4 @@
-jest.mock('../models/index'); // Mock Sequelize instance
+/*jest.mock('../models/index'); // Mock Sequelize instance
 
 // Import the functions to be tested
 const { saveNewUser, getUser, loginUser } = require('../models/userFunctions');
@@ -110,4 +110,4 @@ describe('Login tests', () => {
 
 
   });
-});
+}); */

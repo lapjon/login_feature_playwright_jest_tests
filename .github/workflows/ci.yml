@@ -26,6 +26,9 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Install Playwright browsers
+      run: npx playwright install
+
     - name: Start server in the background
       run: npm start &
     
@@ -35,6 +38,6 @@ jobs:
     - name: Run Jest tests
       run: npm run test
 
-    - name: Run Cypress end-to-end tests in headless mode
-      run: npx cypress run
+    - name: Run Playwright tests in all browsers
+      run: npx playwright test --project=Chromium --project=Chrome --project=Firefox --project=WebKit
   
